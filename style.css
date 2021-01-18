@@ -1,0 +1,24 @@
+@charset 'UTF-8';
+@import 'base.css';
+@import 'bootstrap.css';
+@font-face{
+    font-family: "myFont";
+    src:url(YuseiMagic-Regular.ttf)
+}
+
+h1{
+    border: 15px solid lightsalmon;
+    padding : 15px 5px 15px 5px; /*atas kanan bawah kiri */
+    background-color: powderblue;
+    font-family: myFont;
+    color: gray;
+}
+
+.blog-tittle{
+    font-family: myFont;
+}
+
+.quote{
+    font-size: 14pt;
+    color: lightslategray;
+}
